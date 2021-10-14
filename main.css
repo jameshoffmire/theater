@@ -1,0 +1,157 @@
+.header{
+    display:flex;
+    background-color:black;
+    align-items: center;
+    width: 100%;
+    color:white;
+    margin-bottom:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header h1{
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar a{
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.banner{
+    display:flex;
+    position: relative;
+    background-image: url('theater-image-background.png');
+    width:100%;
+    background-size:cover;
+    height: 500px;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentcontainer{
+    display:flex;
+    position:relative;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.monthbox{
+    margin-top:50px;
+    margin-left:auto;
+    margin-right: auto;
+    display:flex;
+    align-self: center;
+    width:70%;
+    justify-content: left;
+    background-color: lightgrey;
+    border: 1px solid grey;
+    
+}
+
+.monthbox *{
+    margin-left:20px;
+}
+
+.event {
+    margin-top:25px;
+    margin-bottom: 25px;
+    margin-left:auto;
+    margin-right: auto;
+    display:flex;
+    width:70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.event img{
+    height:150px;
+    width:200px;
+    object-fit: fill;
+    margin-left: 5px;
+    margin-bottom:10px;
+}
+
+.event div *{
+    align-self: center;
+}
+
+.event div {
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.event{
+    display:flex;
+    align-items: flex-start;
+    width: 70%;
+    justify-content: center;
+}
+
+hr{
+    margin-top:5px;
+    margin-bottom: 5px;
+    color:black;
+    width: 70%;
+}
+
+.fas{
+    font-size: 160%;
+}
+
+.far{
+    font-size: 160%;
+}
+
+.icon_text{
+    display:flex;
+    align-items: center;
+}
+
+.location_etc{
+    width: 220px;
+}
+
+.footer{
+    display:flex;
+    position:relative;
+    background-color: black;
+    color:white;
+    flex-direction: row;
+}
+
+.map{
+    width: 250px;
+    height:150px;
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-left: 20px;
+}
+
+.column{
+    margin-left: 70px;
+}
+
+#social{
+    margin-left: 100px;
+}
